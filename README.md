@@ -40,51 +40,59 @@ Bicycle
 
 ## Relationships
 
+### Current:
 
-
-### Supplier
+#### Supplier
  - Supplier supplies Part
- - Supplier supplies Assembly
+ - Supplier can supply Part (shows the difference between possibility to supply and actually supplying)
 
 
-### Person
- - Person assembles Part
- - Person assembles Assembly
-
-
-### Assembly
- - Assembly is sourced from Supplier
- - Assembly belongs to Product
+#### Assembly
  - Assembly has Part
  - Assembly has Assembly
- - Assembly is assembled by Person
  - Assembly is specified by Specification
  - Assembly is instructed by Instruction
 
 
-### Part
- - Part is assembled by Person
- - Part is sourced from Supplier
- - Part belongs to Product
- - Part belongs to Assembly
- - Part is specified by Specification
- - Part is instructed by Instruction
-
-
-### Product
+#### Product
  - Product has Assembly
  - Product has Part
- - Product is specified by Specification
- - Product is instructed by Instruction
 
 
-### Specification
+#### Specification
  - Specification specifies Part
  - Specification specifies Assembly
  - Specification specifies Product
 
 
-### Instruction
+#### Instruction
  - Instruction instructs Part
  - Instruction instructs Assembly
  - Instruction instructs Product
+
+
+### Future:
+
+#### Supplier
+ - Supplier supplies Assembly
+ - Supplier can supply Assembly (shows the difference between possibility to supply and actually supplying)
+
+
+#### Person
+ - Person assembles Part
+ - Person assembles Assembly
+
+
+#### Product
+ - Product is sold to Client
+ - Product is packaged with Packaging
+
+
+#### Part
+ - Part could be in Assembly (shows possible re-use use case)
+ - Part could be in Product
+
+
+#### Assembly
+ - Assembly could be in Product
+
