@@ -49,6 +49,7 @@ Bicycle
 
 #### Assembly
  - Assembly has Part
+ - Assembly could have Part (shows potential replacements)
  - Assembly has Assembly
  - Assembly is specified by Specification
  - Assembly is instructed by Instruction
@@ -56,7 +57,6 @@ Bicycle
 
 #### Product
  - Product has Assembly
- - Product has Part
 
 
 #### Specification
