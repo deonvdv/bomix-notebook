@@ -1,0 +1,149 @@
+[
+    {
+        "sku": "fd01",
+        "name": "Front Derailleur",
+        "uom": "pc",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 451
+            }
+        ]
+    },
+    {
+        "sku": "FD-M9000-D",
+        "name": "XTR SIDE SWING Front Derailleur Direct Mount Type 3x11-speed",
+        "uom": "pc",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "spec": "race",
+        "mount": "direct",
+        "speed": "3x11",
+        "weight": 117,
+        "chain_line": 50,
+        "top_gear_teeth": "40T",
+        "total_capacity": "18T",
+        "applicable_top_mid_tooth_difference": "10T",
+        "cable_routing": "bottom-pull",
+        "link_bushings": 6,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 13879
+            }
+        ]
+    },
+    {
+        "sku": "FD-M9000-L",
+        "name": "XTR SIDE SWING Front Derailleur Low Clamp Band Type 3x11-speed",
+        "uom": "pc",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "spec": "race",
+        "mount": "clamp",
+        "clamp-size": "28.6 - 34.9",
+        "speed": "3x11",
+        "weight": 112,
+        "chain_line": 50,
+        "top_gear_teeth": "40T",
+        "total_capacity": "18T",
+        "applicable_top_mid_tooth_difference": "10T",
+        "cable_routing": "bottom-pull",
+        "link_bushings": 6,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 6946
+            }
+        ]
+    },
+    {
+        "sku": "FD-4700-F",
+        "name": "SHIMANO TIAGRA Front Derailleur (Brazed-On Mount) 2x10-speed",
+        "uom": "pc",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "spec": "race",
+        "mount": "direct",
+        "speed": "2x10",
+        "weight": 152,
+        "chain_line": 43.5,
+        "chain_stay_angle": "61 - 66",
+        "top_gear_teeth": "46-52T",
+        "total_capacity": "16T",
+        "cable_routing": "bottom-pull",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 2016
+            }
+        ]
+    },
+    {
+        "sku": "FD-FRC-B1",
+        "name": "Force 22 Yaw Front Derailleur",
+        "uom": "pc",
+        "brand": "SRAM",
+        "bike_type": "road",
+        "spec": "race",
+        "mount": "clamp",
+        "clamp-size": "31.8 - 34.9",
+        "speed": "2x11",
+        "weight": 122,
+        "chain_line": 50,
+        "top_gear_teeth": "40T",
+        "total_capacity": "18T",
+        "cable_routing": "bottom-pull",
+        "chain_stay_angle": "61 - 66",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 6100
+            }
+        ]
+    },
+    {
+        "sku": "FD-FRC-E-D2",
+        "name": "Force 22 Yaw Front Derailleur",
+        "uom": "pc",
+        "brand": "SRAM",
+        "bike_type": "road",
+        "spec": "race",
+        "mount": "direct",
+        "speed": "2x11",
+        "weight": 142,
+        "chain_line": 50,
+        "top_gear_teeth": "43T-30T",
+        "total_capacity": "18T",
+        "chain_stay_angle": "61 - 66",
+        "cable_routing": "wireless",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 22200
+            }
+        ]
+    },
+    {
+        "sku": "FD-RIV-EW-D1",
+        "name": "Rival eTap AXS Wide Front Derailleur",
+        "uom": "pc",
+        "brand": "SRAM",
+        "bike_type": "road",
+        "spec": "race",
+        "mount": "direct",
+        "speed": "2x12",
+        "weight": 142,
+        "chain_line": 50,
+        "top_gear_teeth": "40T",
+        "total_capacity": "18T",
+        "chain_stay_angle": "61 - 66",
+        "cable_routing": "wireless",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 23500
+            }
+        ]
+    }
+]
