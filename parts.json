@@ -1,18 +1,9 @@
 [
     {
-        "sku": "fd01",
-        "name": "Front Derailleur",
-        "uom": "pc",
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 451
-            }
-        ]
-    },
-    {
         "sku": "FD-M9000-D",
         "name": "XTR SIDE SWING Front Derailleur Direct Mount Type 3x11-speed",
+        "series": "XTR M9000 Series",
+        "type": "Front Derailleur",
         "uom": "pc",
         "brand": "Shimano",
         "bike_type": "mountain",
@@ -31,11 +22,23 @@
                 "code": "US001",
                 "cost": 13879
             }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91"
         ]
     },
     {
         "sku": "FD-M9000-L",
+        "type": "Front Derailleur",
         "name": "XTR SIDE SWING Front Derailleur Low Clamp Band Type 3x11-speed",
+        "series": "XTR M9000 Series",
         "uom": "pc",
         "brand": "Shimano",
         "bike_type": "mountain",
@@ -55,14 +58,283 @@
                 "code": "US001",
                 "cost": 6946
             }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "RD-M9000-SGS",
+        "name": "XTR Rear Derailleur SHIMANO SHADOW RD+ 11-speed",
+        "series": "XTR M9000 Series",
+        "type": "Rear Derailleur",
+        "uom": "pc",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "mount": "direct",
+        "max_front_difference": "18T",
+        "weight": 224,
+        "low_sprocket_max": "40T(3x11-speed), 42T(2x11-speed), 46T(1x11-speed)",
+        "low_sprocket_min": "11T",
+        "top_sprocket_max": "11T",
+        "pulley_bearing": "Sealed Bearing",
+        "pully_teeth": "11T",
+        "link_bushings": 4,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 20167
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-4700-F",
+            "FD-M9000-L",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "RD-M9000-GS",
+        "name": "XTR Medium Cage Rear Derailleur SHIMANO SHADOW RD+ 11-speed",
+        "series": "XTR M9000 Series",
+        "type": "Rear Derailleur",
+        "uom": "pc",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "mount": "direct",
+        "max_front_difference": "10T",
+        "weight": 221,
+        "low_sprocket_max": "42T(2x11-speed), 46T(1x11-speed)",
+        "low_sprocket_min": "11T",
+        "top_sprocket_max": "11T",
+        "pulley_bearing": "Sealed Bearing",
+        "pully_teeth": "11T",
+        "link_bushings": 4,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 18900
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-4700-F",
+            "FD-M9000-L",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "CS-M9001",
+        "name": "XTR HG MTB Cassette 11-speed",
+        "series": "XTR M9000 Series",
+        "type": "Cassette",
+        "bike_type": "mountain",
+        "uom": "pc",
+        "brand": "Shimano",
+        "rear_speeds": 11,
+        "group_name": "11-40T (bs)",
+        "combination": "11-13-15-17-19*-21*-24*-27*-31*-35*-40**T (bs)",
+        "weight": 330,
+        "titanium_gears": 1,
+        "aluminium_gears": 6,
+        "steel_gears": 4,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 32268
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "FD-4700-F",
+            "FD-M9000-L",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91",
+            "FC-M9020-B1",
+            "FC-M9000-1"
+        ]
+    },
+    {
+        "sku": "FC-M9020-B1",
+        "name": "XTR HOLLOWTECH II MTB Crankset 174mm Q-Factor 1x11-speed",
+        "series": "XTR M9000 Series",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Crankset",
+        "uom": "pc",
+        "weight": 593,
+        "rear_speeds": 11,
+        "chain_line": 53.4,
+        "combination": "32T, 30T",
+        "q_factor": 174,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 54535
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "CS-M9001",
+            "SM-CRM91",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "FC-M9000-1",
+        "name": "SHIMANO XTR HOLLOWTECH II XC MTB Crankset 1x11-speed",
+        "series": "XTR M9000 Series",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Crankset",
+        "uom": "pc",
+        "weight": 616,
+        "rear_speeds": 11,
+        "chain_line": 50.4,
+        "combination": "36T, 34T, 32T, 30T",
+        "q_factor": 158,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 17175
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "CS-M9001",
+            "SM-CRM91",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "FC-M9020-2",
+        "name": "SHIMANO XTR HOLLOWTECH II Trail MTB Crankset 2x11-speed",
+        "series": "XTR M9000 Series",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Crankset",
+        "uom": "pc",
+        "weight": 667,
+        "rear_speeds": 11,
+        "chain_line": 48.8,
+        "combination": "38-28T 36-26T 34-24T",
+        "q_factor": 168,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 52100
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "CS-M9001",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "SM-CRM91"
+        ]
+    },
+    {
+        "sku": "SM-CRM91",
+        "name": "SHIMANO XTR Chainring 11/10-speed",
+        "series": "XTR M9000 Series",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Chainring",
+        "uom": "pc",
+        "weight": 200,
+        "rear_speeds": 1,
+        "combination": "30-36T",
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 10083
+            }
+        ],
+        "compatible_with": [
+            "HG-X11",
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "RD-M9000-SGS",
+            "RD-M9000-GS"
+        ]
+    },
+    {
+        "sku": "HG-X11",
+        "name": "HG-X11 Chain",
+        "series": "XTR M9000 Series",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Chain",
+        "uom": "pc",
+        "weight": 247,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 10083
+            }
+        ],
+        "compatible_with": [
+            "FD-M9000-D",
+            "FD-M9000-L",
+            "RD-M9000-SGS",
+            "RD-M9000-GS",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91",
+            "CS-M9001",
+            "FC-M9020-B1",
+            "FC-M9000-1",
+            "FC-M9020-2",
+            "SM-CRM91"
         ]
     },
     {
         "sku": "FD-4700-F",
         "name": "SHIMANO TIAGRA Front Derailleur (Brazed-On Mount) 2x10-speed",
+        "series": "TIAGRA 4700 Series",
+        "type": "Front Derailleur",
         "uom": "pc",
         "brand": "Shimano",
-        "bike_type": "mountain",
+        "bike_type": "road/gravel",
         "spec": "race",
         "mount": "direct",
         "speed": "2x10",
@@ -77,73 +349,141 @@
                 "code": "US001",
                 "cost": 2016
             }
+        ],
+        "compatible_with": [
+            "CN-HG54",
+            "RD-4700-SS",
+            "RD-4700-GS"
         ]
     },
     {
-        "sku": "FD-FRC-B1",
-        "name": "Force 22 Yaw Front Derailleur",
+        "sku": "RD-4700-SS",
+        "name": "SHIMANO TIAGRA Short Cage Rear Derailleur 10-speed",
+        "series": "TIAGRA 4700 Series",
+        "type": "Rear Derailleur",
         "uom": "pc",
-        "brand": "SRAM",
-        "bike_type": "road",
-        "spec": "race",
-        "mount": "clamp",
-        "clamp-size": "31.8 - 34.9",
-        "speed": "2x11",
-        "weight": 122,
-        "chain_line": 50,
-        "top_gear_teeth": "40T",
-        "total_capacity": "18T",
-        "cable_routing": "bottom-pull",
-        "chain_stay_angle": "61 - 66",
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 6100
-            }
-        ]
-    },
-    {
-        "sku": "FD-FRC-E-D2",
-        "name": "Force 22 Yaw Front Derailleur",
-        "uom": "pc",
-        "brand": "SRAM",
-        "bike_type": "road",
-        "spec": "race",
+        "brand": "Shimano",
+        "bike_type": "mountain",
         "mount": "direct",
-        "speed": "2x11",
-        "weight": 142,
-        "chain_line": 50,
-        "top_gear_teeth": "43T-30T",
-        "total_capacity": "18T",
-        "chain_stay_angle": "61 - 66",
-        "cable_routing": "wireless",
+        "max_front_difference": "16T",
+        "weight": 214,
+        "low_sprocket_max": "28T",
+        "low_sprocket_min": "11T",
+        "top_sprocket_max": "14T",
+        "pully_teeth": "11T",
+        "link_bushings": 2,
         "suppliers": [
             {
                 "code": "US001",
-                "cost": 22200
+                "cost": 3226
             }
+        ],
+        "compatible_with": [
+            "CN-HG54",
+            "FD-4700-F"
         ]
     },
     {
-        "sku": "FD-RIV-EW-D1",
-        "name": "Rival eTap AXS Wide Front Derailleur",
+        "sku": "RD-4700-GS",
+        "name": "SHIMANO TIAGRA Medium Cage Rear Derailleur 10-speed",
+        "series": "TIAGRA 4700 Series",
+        "type": "Rear Derailleur",
         "uom": "pc",
-        "brand": "SRAM",
-        "bike_type": "road",
-        "spec": "race",
+        "brand": "Shimano",
+        "bike_type": "mountain",
         "mount": "direct",
-        "speed": "2x12",
-        "weight": 142,
-        "chain_line": 50,
-        "top_gear_teeth": "40T",
-        "total_capacity": "18T",
-        "chain_stay_angle": "61 - 66",
-        "cable_routing": "wireless",
+        "max_front_difference": "16T",
+        "weight": 234,
+        "low_sprocket_max": "34T (Front double) 32T (Front triple)",
+        "low_sprocket_min": "11T",
+        "top_sprocket_max": "12T",
+        "pully_teeth": "11T",
+        "link_bushings": 2,
         "suppliers": [
             {
                 "code": "US001",
-                "cost": 23500
+                "cost": 3999
             }
+        ],
+        "compatible_with": [
+            "CN-HG54",
+            "FD-4700-F"
+        ]
+    },
+    {
+        "sku": "FC-4700",
+        "name": "SHIMANO TIAGRA Road Crankset 2x10-speed",
+        "series": "TIAGRA 4700 Series",
+        "brand": "Shimano",
+        "bike_type": "road",
+        "type": "Crankset",
+        "uom": "pc",
+        "weight": 667,
+        "rear_speeds": 10,
+        "chain_line": 43.5,
+        "combination": "48-34T 50-34T 52-36T",
+        "q_factor": 150,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 9299
+            }
+        ],
+        "compatible_with": [
+            "CN-HG54",
+            "RD-4700-SS",
+            "RD-4700-GS",
+            "FD-4700-F"
+        ]
+    },
+    {
+        "sku": "FC-4703",
+        "name": "SHIMANO TIAGRA Road Crankset 3x10-speed",
+        "series": "TIAGRA 4700 Series",
+        "brand": "Shimano",
+        "bike_type": "road",
+        "type": "Crankset",
+        "uom": "pc",
+        "weight": 667,
+        "rear_speeds": 10,
+        "chain_line": 45,
+        "combination": "50-39-30T",
+        "q_factor": 158.8,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 11596
+            }
+        ],
+        "compatible_with": [
+            "CN-HG54",
+            "RD-4700-SS",
+            "RD-4700-GS",
+            "FD-4700-F"
+        ]
+    },
+    {
+        "sku": "CN-HG54",
+        "name": "SHIMANO DEORE 10-Speed Super Narrow MTB Chain",
+        "series": "GRX 10-speed",
+        "brand": "Shimano",
+        "bike_type": "mountain",
+        "type": "Chain",
+        "uom": "pc",
+        "weight": 273,
+        "suppliers": [
+            {
+                "code": "US001",
+                "cost": 1703
+            }
+        ],
+        "compatible_with": [
+            "FD-M9000-D",
+            "RD-4700-SS",
+            "RD-4700-GS",
+            "FC-4700",
+            "FC-4700",
+            "FC-4703"
         ]
     }
 ]
