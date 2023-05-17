@@ -1,521 +1,283 @@
 [
     {
-        "sku": "FD-M9000-D",
-        "name": "XTR SIDE SWING Front Derailleur Direct Mount Type 3x11-speed",
-        "series": "XTR M9000 Series",
-        "type": "Front Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "spec": "race",
-        "mount": "direct",
-        "speed": "3x11",
-        "weight": 117,
-        "chain_line": 50,
-        "top_gear_teeth": "40T",
-        "total_capacity": "18T",
-        "applicable_top_mid_tooth_difference": "10T",
-        "cable_routing": "bottom-pull",
-        "link_bushings": 6,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 13879,
-                "lead_time_min": "P2W",
-                "lead_time_max": "P3W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "FD-M9000-L",
-        "type": "Front Derailleur",
-        "name": "XTR SIDE SWING Front Derailleur Low Clamp Band Type 3x11-speed",
-        "series": "XTR M9000 Series",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "spec": "race",
-        "mount": "clamp",
-        "clamp-size": "28.6 - 34.9",
-        "speed": "3x11",
-        "weight": 112,
-        "chain_line": 50,
-        "top_gear_teeth": "40T",
-        "total_capacity": "18T",
-        "applicable_top_mid_tooth_difference": "10T",
-        "cable_routing": "bottom-pull",
-        "link_bushings": 6,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 6946,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "RD-M9000-SGS",
-        "name": "XTR Rear Derailleur SHIMANO SHADOW RD+ 11-speed",
-        "series": "XTR M9000 Series",
-        "type": "Rear Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "mount": "direct",
-        "max_front_difference": "18T",
-        "weight": 224,
-        "low_sprocket_max": "40T(3x11-speed), 42T(2x11-speed), 46T(1x11-speed)",
-        "low_sprocket_min": "11T",
-        "top_sprocket_max": "11T",
-        "pulley_bearing": "Sealed Bearing",
-        "pully_teeth": "11T",
-        "link_bushings": 4,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 20167,
-                "lead_time_min": "P2D",
-                "lead_time_max": "P3W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-4700-F",
-            "FD-M9000-L",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "RD-M9000-GS",
-        "name": "XTR Medium Cage Rear Derailleur SHIMANO SHADOW RD+ 11-speed",
-        "series": "XTR M9000 Series",
-        "type": "Rear Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "mount": "direct",
-        "max_front_difference": "10T",
-        "weight": 221,
-        "low_sprocket_max": "42T(2x11-speed), 46T(1x11-speed)",
-        "low_sprocket_min": "11T",
-        "top_sprocket_max": "11T",
-        "pulley_bearing": "Sealed Bearing",
-        "pully_teeth": "11T",
-        "link_bushings": 4,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 18900,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P4W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-4700-F",
-            "FD-M9000-L",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "CS-M9001",
-        "name": "XTR HG MTB Cassette 11-speed",
-        "series": "XTR M9000 Series",
-        "type": "Cassette",
-        "bike_type": "mountain",
-        "uom": "pc",
-        "brand": "Shimano",
-        "rear_speeds": 11,
-        "group_name": "11-40T (bs)",
-        "combination": "11-13-15-17-19*-21*-24*-27*-31*-35*-40**T (bs)",
-        "weight": 330,
-        "titanium_gears": 1,
-        "aluminium_gears": 6,
-        "steel_gears": 4,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 32268,
-                "lead_time_min": "P2D",
-                "lead_time_max": "P3D"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "FD-4700-F",
-            "FD-M9000-L",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91",
-            "FC-M9020-B1",
-            "FC-M9000-1"
-        ]
-    },
-    {
         "sku": "FC-M9020-B1",
         "name": "XTR HOLLOWTECH II MTB Crankset 174mm Q-Factor 1x11-speed",
         "series": "XTR M9000 Series",
         "brand": "Shimano",
-        "bike_type": "mountain",
         "type": "Crankset",
-        "uom": "pc",
         "weight": 593,
-        "rear_speeds": 11,
-        "chain_line": 53.4,
-        "combination": "32T, 30T",
-        "q_factor": 174,
-        "suppliers": [
+        "width": 6,
+        "teeth_spacing": 8,
+        "material": "titanium/steel",
+        "cost": 54535,
+        "durability": 300,
+        "compatible_with": [
+            "HG-X11"
+        ],
+        "compatible_materials": [],
+        "compatible_teeth_spacing": [
+            "HG-X11"
+        ],
+        "durability_transmission": [
             {
-                "code": "US001",
-                "cost": 54535,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
+                "sku": "HG-X11",
+                "durability": 200
+            },
+            {
+                "sku": "CN-HG54",
+                "durability": 150
             }
         ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "CS-M9001",
-            "SM-CRM91",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "FC-M9000-1",
-        "name": "SHIMANO XTR HOLLOWTECH II XC MTB Crankset 1x11-speed",
-        "series": "XTR M9000 Series",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "type": "Crankset",
-        "uom": "pc",
-        "weight": 616,
-        "rear_speeds": 11,
-        "chain_line": 50.4,
-        "combination": "36T, 34T, 32T, 30T",
-        "q_factor": 158,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 17175,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "CS-M9001",
-            "SM-CRM91",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "FC-M9020-2",
-        "name": "SHIMANO XTR HOLLOWTECH II Trail MTB Crankset 2x11-speed",
-        "series": "XTR M9000 Series",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "type": "Crankset",
-        "uom": "pc",
-        "weight": 667,
-        "rear_speeds": 11,
-        "chain_line": 48.8,
-        "combination": "38-28T 36-26T 34-24T",
-        "q_factor": 168,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 52100,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "CS-M9001",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "SM-CRM91",
-        "name": "SHIMANO XTR Chainring 11/10-speed",
-        "series": "XTR M9000 Series",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "type": "Chainring",
-        "uom": "pc",
-        "weight": 200,
-        "rear_speeds": 1,
-        "combination": "30-36T",
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 10083,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "HG-X11",
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "RD-M9000-SGS",
-            "RD-M9000-GS"
-        ]
+        "weight_x_weight": 100,
+        "weight_x_material": 126,
+        "weight_x_cost": 140,
+        "weight_x_durability": 57,
+        "weight_x_width": 59,
+        "weight_x_teeth_spacing": 181,
+        "width_x_weight": 104,
+        "width_x_material": 129,
+        "width_x_cost": 148,
+        "width_x_durability": 127,
+        "width_x_width": 100,
+        "width_x_teeth_spacing": 149,
+        "teeth_spacing_x_weight": 16,
+        "teeth_spacing_x_material": 118,
+        "teeth_spacing_x_cost": 21,
+        "teeth_spacing_x_durability": 63,
+        "teeth_spacing_x_width": 129,
+        "teeth_spacing_x_teeth_spacing": 100,
+        "material_x_weight": 74,
+        "material_x_material": 100,
+        "material_x_cost": 15,
+        "material_x_durability": 74,
+        "material_x_width": 150,
+        "material_x_teeth_spacing": 175,
+        "cost_x_weight": 24,
+        "cost_x_material": 74,
+        "cost_x_cost": 100,
+        "cost_x_durability": 27,
+        "cost_x_width": 165,
+        "cost_x_teeth_spacing": 197,
+        "durability_x_weight": 149,
+        "durability_x_material": 32,
+        "durability_x_cost": 89,
+        "durability_x_durability": 100,
+        "durability_x_width": 64,
+        "durability_x_teeth_spacing": 120
     },
     {
         "sku": "HG-X11",
         "name": "HG-X11 Chain",
         "series": "XTR M9000 Series",
         "brand": "Shimano",
-        "bike_type": "mountain",
         "type": "Chain",
-        "uom": "pc",
         "weight": 247,
-        "suppliers": [
+        "cost": 3932,
+        "material": "steel",
+        "durability": 200,
+        "width": 6,
+        "teeth_spacing": 8,
+        "compatible_with": [
+            "FC-M9020-B1"
+        ],
+        "compatible_materials": [
+            "FC-4700",
+            "CN-HG54"
+        ],
+        "compatible_teeth_spacing": [
+            "FC-M9020-B1"
+        ],
+        "durability_transmission": [
             {
-                "code": "US001",
-                "cost": 10083,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
+                "sku": "FC-M9020-B1",
+                "durability": 200
+            },
+            {
+                "sku": "FC-4700",
+                "durability": 200
+            },
+            {
+                "sku": "CN-HG54",
+                "durability": 150
             }
         ],
-        "compatible_with": [
-            "FD-M9000-D",
-            "FD-M9000-L",
-            "RD-M9000-SGS",
-            "RD-M9000-GS",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91",
-            "CS-M9001",
-            "FC-M9020-B1",
-            "FC-M9000-1",
-            "FC-M9020-2",
-            "SM-CRM91"
-        ]
-    },
-    {
-        "sku": "FD-4700-F",
-        "name": "SHIMANO TIAGRA Front Derailleur (Brazed-On Mount) 2x10-speed",
-        "series": "TIAGRA 4700 Series",
-        "type": "Front Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "road/gravel",
-        "spec": "race",
-        "mount": "direct",
-        "speed": "2x10",
-        "weight": 152,
-        "chain_line": 43.5,
-        "chain_stay_angle": "61 - 66",
-        "top_gear_teeth": "46-52T",
-        "total_capacity": "16T",
-        "cable_routing": "bottom-pull",
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 2016,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "CN-HG54",
-            "RD-4700-SS",
-            "RD-4700-GS"
-        ]
-    },
-    {
-        "sku": "RD-4700-SS",
-        "name": "SHIMANO TIAGRA Short Cage Rear Derailleur 10-speed",
-        "series": "TIAGRA 4700 Series",
-        "type": "Rear Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "mount": "direct",
-        "max_front_difference": "16T",
-        "weight": 214,
-        "low_sprocket_max": "28T",
-        "low_sprocket_min": "11T",
-        "top_sprocket_max": "14T",
-        "pully_teeth": "11T",
-        "link_bushings": 2,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 3226,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "CN-HG54",
-            "FD-4700-F"
-        ]
-    },
-    {
-        "sku": "RD-4700-GS",
-        "name": "SHIMANO TIAGRA Medium Cage Rear Derailleur 10-speed",
-        "series": "TIAGRA 4700 Series",
-        "type": "Rear Derailleur",
-        "uom": "pc",
-        "brand": "Shimano",
-        "bike_type": "mountain",
-        "mount": "direct",
-        "max_front_difference": "16T",
-        "weight": 234,
-        "low_sprocket_max": "34T (Front double) 32T (Front triple)",
-        "low_sprocket_min": "11T",
-        "top_sprocket_max": "12T",
-        "pully_teeth": "11T",
-        "link_bushings": 2,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 3999,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "CN-HG54",
-            "FD-4700-F"
-        ]
+        "weight_x_weight": 100,
+        "weight_x_material": 150,
+        "weight_x_cost": 140,
+        "weight_x_durability": 183,
+        "weight_x_width": 121,
+        "weight_x_teeth_spacing": 100,
+        "cost_x_weight": 89,
+        "cost_x_material": 39,
+        "cost_x_cost": 100,
+        "cost_x_durability": 154,
+        "cost_x_width": 115,
+        "cost_x_teeth_spacing": 109,
+        "material_x_weight": 89,
+        "material_x_material": 100,
+        "material_x_cost": 164,
+        "material_x_durability": 10,
+        "material_x_width": 177,
+        "material_x_teeth_spacing": 65,
+        "durability_x_weight": 5,
+        "durability_x_material": 96,
+        "durability_x_cost": 19,
+        "durability_x_durability": 100,
+        "durability_x_width": 110,
+        "durability_x_teeth_spacing": 6,
+        "width_x_weight": 56,
+        "width_x_material": 73,
+        "width_x_cost": 157,
+        "width_x_durability": 106,
+        "width_x_width": 100,
+        "width_x_teeth_spacing": 150,
+        "teeth_spacing_x_weight": 93,
+        "teeth_spacing_x_material": 76,
+        "teeth_spacing_x_cost": 44,
+        "teeth_spacing_x_durability": 193,
+        "teeth_spacing_x_width": 164,
+        "teeth_spacing_x_teeth_spacing": 100
     },
     {
         "sku": "FC-4700",
         "name": "SHIMANO TIAGRA Road Crankset 2x10-speed",
         "series": "TIAGRA 4700 Series",
         "brand": "Shimano",
-        "bike_type": "road",
         "type": "Crankset",
-        "uom": "pc",
         "weight": 667,
-        "rear_speeds": 10,
-        "chain_line": 43.5,
-        "combination": "48-34T 50-34T 52-36T",
-        "q_factor": 150,
-        "suppliers": [
+        "cost": 9299,
+        "material": "steel",
+        "durability": 250,
+        "width": 6,
+        "teeth_spacing": 7,
+        "compatible_with": [
+            "CN-HG54"
+        ],
+        "compatible_materials": [
+            "HG-X11",
+            "CN-HG54"
+        ],
+        "compatible_teeth_spacing": [
+            "CN-HG54"
+        ],
+        "durability_transmission": [
             {
-                "code": "US001",
-                "cost": 9299,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
+                "sku": "HG-X11",
+                "durability": 200
+            },
+            {
+                "sku": "CN-HG54",
+                "durability": 150
             }
         ],
-        "compatible_with": [
-            "CN-HG54",
-            "RD-4700-SS",
-            "RD-4700-GS",
-            "FD-4700-F"
-        ]
-    },
-    {
-        "sku": "FC-4703",
-        "name": "SHIMANO TIAGRA Road Crankset 3x10-speed",
-        "series": "TIAGRA 4700 Series",
-        "brand": "Shimano",
-        "bike_type": "road",
-        "type": "Crankset",
-        "uom": "pc",
-        "weight": 667,
-        "rear_speeds": 10,
-        "chain_line": 45,
-        "combination": "50-39-30T",
-        "q_factor": 158.8,
-        "suppliers": [
-            {
-                "code": "US001",
-                "cost": 11596,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
-            }
-        ],
-        "compatible_with": [
-            "CN-HG54",
-            "RD-4700-SS",
-            "RD-4700-GS",
-            "FD-4700-F"
-        ]
+        "weight_x_weight": 100,
+        "weight_x_material": 68,
+        "weight_x_cost": 127,
+        "weight_x_durability": 49,
+        "weight_x_width": 149,
+        "weight_x_teeth_spacing": 94,
+        "cost_x_weight": 22,
+        "cost_x_material": 159,
+        "cost_x_cost": 100,
+        "cost_x_durability": 41,
+        "cost_x_width": 9,
+        "cost_x_teeth_spacing": 30,
+        "material_x_weight": 52,
+        "material_x_material": 100,
+        "material_x_cost": 92,
+        "material_x_durability": 50,
+        "material_x_width": 97,
+        "material_x_teeth_spacing": 197,
+        "durability_x_weight": 150,
+        "durability_x_material": 117,
+        "durability_x_cost": 155,
+        "durability_x_durability": 100,
+        "durability_x_width": 159,
+        "durability_x_teeth_spacing": 85,
+        "width_x_weight": 45,
+        "width_x_material": 89,
+        "width_x_cost": 95,
+        "width_x_durability": 157,
+        "width_x_width": 100,
+        "width_x_teeth_spacing": 122,
+        "teeth_spacing_x_weight": 127,
+        "teeth_spacing_x_material": 45,
+        "teeth_spacing_x_cost": 120,
+        "teeth_spacing_x_durability": 194,
+        "teeth_spacing_x_width": 11,
+        "teeth_spacing_x_teeth_spacing": 100
     },
     {
         "sku": "CN-HG54",
         "name": "SHIMANO DEORE 10-Speed Super Narrow MTB Chain",
         "series": "GRX 10-speed",
         "brand": "Shimano",
-        "bike_type": "mountain",
         "type": "Chain",
-        "uom": "pc",
         "weight": 273,
-        "suppliers": [
+        "cost": 1703,
+        "material": "steel",
+        "durability": 150,
+        "width": 6,
+        "teeth_spacing": 7,
+        "compatible_with": [
+            "FC-4700"
+        ],
+        "compatible_materials": [
+            "HG-X11",
+            "FC-4700"
+        ],
+        "compatible_teeth_spacing": [
+            "FC-4700"
+        ],
+        "durability_transmission": [
             {
-                "code": "US001",
-                "cost": 1703,
-                "lead_time_min": "P1W",
-                "lead_time_max": "P2W"
+                "sku": "FC-M9020-B1",
+                "durability": 150
+            },
+            {
+                "sku": "HG-X11",
+                "durability": 150
+            },
+            {
+                "sku": "FC-4700",
+                "durability": 150
             }
         ],
-        "compatible_with": [
-            "FD-M9000-D",
-            "RD-4700-SS",
-            "RD-4700-GS",
-            "FC-4700",
-            "FC-4700",
-            "FC-4703"
-        ]
+        "weight_x_weight": 100,
+        "weight_x_material": 56,
+        "weight_x_cost": 52,
+        "weight_x_durability": 132,
+        "weight_x_width": 161,
+        "weight_x_teeth_spacing": 40,
+        "cost_x_weight": 199,
+        "cost_x_material": 154,
+        "cost_x_cost": 100,
+        "cost_x_durability": 85,
+        "cost_x_width": 14,
+        "cost_x_teeth_spacing": 48,
+        "material_x_weight": 86,
+        "material_x_material": 100,
+        "material_x_cost": 184,
+        "material_x_durability": 47,
+        "material_x_width": 12,
+        "material_x_teeth_spacing": 87,
+        "durability_x_weight": 39,
+        "durability_x_material": 139,
+        "durability_x_cost": 164,
+        "durability_x_durability": 100,
+        "durability_x_width": 75,
+        "durability_x_teeth_spacing": 10,
+        "width_x_weight": 170,
+        "width_x_material": 10,
+        "width_x_cost": 125,
+        "width_x_durability": 137,
+        "width_x_width": 100,
+        "width_x_teeth_spacing": 156,
+        "teeth_spacing_x_weight": 67,
+        "teeth_spacing_x_material": 108,
+        "teeth_spacing_x_cost": 110,
+        "teeth_spacing_x_durability": 163,
+        "teeth_spacing_x_width": 24,
+        "teeth_spacing_x_teeth_spacing": 100
     }
 ]
