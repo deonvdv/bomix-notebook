@@ -96,3 +96,20 @@ Bicycle
 #### Assembly
  - Assembly could be in Product
 
+
+
+
+constraints
+
+weight
+style
+top speed
+durability (km)
+cost
+
+
+
+
+relationships between categories
+y/n if compatible (funcion)
+
